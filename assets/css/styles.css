@@ -1,91 +1,42 @@
-/* Base reset */
 body {
+  font-family: Georgia, serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-               Roboto, Helvetica, Arial, sans-serif;
-  background: #f9fafb;
-  color: #111;
+  padding: 0;
   line-height: 1.6;
+  background: #ffffff;
 }
 
-/* Header */
 header {
-  max-width: 900px;
-  margin: auto;
-  padding: 3rem 1rem 1.5rem;
   text-align: center;
+  padding: 3rem 1rem;
 }
 
-h1 {
-  font-size: 3rem;
-  margin-bottom: 0.3rem;
-}
-
-.subtitle {
-  color: #555;
-  font-size: 1.1rem;
-}
-
-/* Main content */
-main {
-  max-width: 900px;
-  margin: auto;
-  padding: 1rem;
+.profile-photo {
+  width: 220px;
+  max-width: 90%;
+  border-radius: 18px;
+  display: block;
+  margin: 1.5rem auto;
 }
 
 section {
-  background: white;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
 }
 
-/* Hero layout */
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-/* Images */
-.profile-photo {
-  width: 220px;
-  max-width: 100%;
-  border-radius: 16px;
-  display: block;
-  margin: 1rem auto;
-}
-
-.horse-photo {
-  width: 100%;
-  max-width: 500px;
-  border-radius: 16px;
-  display: block;
-  margin: 2rem auto 0;
-}
-
-/* Text */
-p {
-  margin-top: 0;
+h1, h2, h3 {
+  font-weight: normal;
 }
 
 ul {
   padding-left: 1.2rem;
 }
 
-/* Links */
-a {
-  color: #2563eb;
-  text-decoration: none;
+.horse-photo {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 18px;
+  display: block;
+  margin: 2rem auto;
 }
-
-a:hover {
-  text-decoration: underline;
-}
-
-img {
-  width: 200px !important;
-}
-
